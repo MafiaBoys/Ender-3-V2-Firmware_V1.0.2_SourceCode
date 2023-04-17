@@ -42,8 +42,7 @@ You can open Marlin in Visual Studio Code in one of several ways:
 
 
 ## Used By 0xKnock
-
-This project is used by the following companies:
+Proplems:
 
 - Fixed Build Proplem
 - Fixed Z-Axis Endstop Switch
