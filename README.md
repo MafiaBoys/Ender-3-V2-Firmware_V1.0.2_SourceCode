@@ -53,3 +53,17 @@ Ender 3 Z-Axis Endstop Switch Problem
 [Watch on Youtube](https://www.youtube.com/watch?v=O4idrobsljs&t=3s&ab_channel=Tombof3DPrintedHorrors).
 
 
+## Note
+The reason for Z-Axis Endstop Switch problem is not from adjusting the angle of the stop button, rather it is from the firmware. To fix the problem, you must first modify the wires of the stop button in order for it to fit into the end logic :heavy_check_mark:true not :x:false
+```Configuration.h```
+
+```
+// Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
+#define X_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Y_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Z_MIN_ENDSTOP_INVERTING true <====================================================== // Set to true to invert the logic of the endstop.
+#define X_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Y_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Z_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Z_MIN_PROBE_ENDSTOP_INVERTING false // Set to true to invert the logic of the probe.
+```
