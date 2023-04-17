@@ -48,4 +48,7 @@ Proplems:
 - Fixed Z-Axis Endstop Switch
 
 
+Ender 3 Z-Axis Endstop Switch Problem ![]([http://damien.pobel.fr/images/youtube-video-github.gif](https://makeagif.com/i/BafMJy))
+
+
 
