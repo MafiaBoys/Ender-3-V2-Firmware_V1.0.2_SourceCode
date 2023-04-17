@@ -48,7 +48,8 @@ Proplems:
 - Fixed Z-Axis Endstop Switch
 
 
-Ender 3 Z-Axis Endstop Switch Problem ![Watch on Youtube]([https://www.youtube.com/watch?v=O4idrobsljs&t=3s&ab_channel=Tombof3DPrintedHorrors)
+Ender 3 Z-Axis Endstop Switch Problem 
 
+[Watch on Youtube]([http://marlinfw.org/](https://www.youtube.com/watch?v=O4idrobsljs&t=3s&ab_channel=Tombof3DPrintedHorrors)).
 
 
