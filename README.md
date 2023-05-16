@@ -54,7 +54,7 @@ Ender 3 Z-Axis Endstop Switch Problem
 
 
 ## Note
-The reason for Z-Axis Endstop Switch problem is not from adjusting the angle of the stop button, rather it is from the firmware. To fix the problem, you must first modify the wires of the stop button in order for it to fit into the end logic :heavy_check_mark:true not :x:false
+The reason for Z-Axis Endstop Switch problem is not from adjusting the angle of the stop button, rather it is from the firmware Configuration. To fix the problem, you must first modify the wires of the stop button in order for it to fit into the end logic :heavy_check_mark:true not :x:false
 ```Configuration.h```
 
 ```
